@@ -108,7 +108,7 @@ void loop() {
 
 //    t_httpUpdate_return ret = httpUpdate.update(client, "https://github.com/Pittayathorn/ESP32S3OTA/raw/main/HTTPS_OTA_Update.ino.esp32.bin");
     // Or:
-    t_httpUpdate_return ret = httpUpdate.update(client, "www.github.com", 443, "/file.bin");
+    t_httpUpdate_return ret = httpUpdate.update(client, "www.github.com", 443, "/Pittayathorn/ESP32S3OTA/raw/main/firmware.bin");
 
 
     switch (ret) {
